@@ -1,0 +1,146 @@
+body {
+  margin: 0%;
+  height: 100svh;
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: white;
+  padding: 40px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 60px;
+}
+.all {
+  width: 650px;
+  box-shadow: 7px 11px 20px 2px #0b6d8e36;
+  border-radius: 8px;
+}
+.blue {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 24px;
+}
+.yellow {
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(71, 73%, 54%);
+}
+.grey {
+  font-weight: 400;
+  color: hsl(218, 22%, 67%);
+  font-size: 16px;
+  line-height: 25px;
+}
+aside,
+nav {
+  width: 250px;
+  height: 150px;
+}
+section {
+  display: flex;
+}
+aside {
+  background-color: hsl(179, 68%, 36%);
+  padding: 40px;
+  justify-content: center;
+  align-content: center;
+  border-bottom-left-radius: 8px;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin: 0;
+}
+.money {
+  display: flex;
+  gap: 10px;
+}
+.opac {
+  margin: 25px 0;
+  opacity: 0.4;
+}
+h2 {
+  font-weight: 700;
+  color: white;
+  font-size: 32px;
+  margin: 15px 0;
+}
+.small {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+button {
+  padding: 10px 60px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  margin-top: 20px;
+}
+nav {
+  width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 30px;
+  border-bottom-right-radius: 8px;
+}
+.text {
+  text-align: left;
+  font-size: 16px;
+  width: 220px;
+  color: rgb(255, 255, 255);
+  line-height: 25px;
+  font-weight: 200;
+}
+@media (max-width: 600px) {
+  .all {
+    width: 80%;
+    box-shadow: 7px 11px 20px 2px #0b6d8e36;
+    border-radius: 8px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  aside {
+    padding: 0%;
+    width: 80%;
+    padding: 10%;
+    border-radius: 0%;
+  }
+  nav {
+    padding: 10%;
+    width: 80%;
+    border-bottom-left-radius: 8px;
+  }
+  main {
+    height: 100%;
+    padding: 10%;
+  }
+  .grey {
+    font-size: 12px;
+  }
+  .yellow {
+    font-size: 16px;
+  }
+  .blue {
+    font-size: 20px;
+  }
+}
